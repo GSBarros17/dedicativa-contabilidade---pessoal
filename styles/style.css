@@ -1,0 +1,143 @@
+body{
+    height: 200vh;
+    background-color: #e8e5e5;
+    color: #212121;
+    transition: 2s;
+}
+
+header{
+    display: block;
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+
+}
+
+.menu-header{
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #322f50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: 1s;
+    
+}
+
+.button-menu-ative{
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.logo-header{
+    width: 150px;
+    margin: 8px;
+}
+
+.btn-light[type="checkbox"]{
+    position: relative;
+    width: 20px;
+    height: 10px;
+    appearance: none;
+    background-color: rgb(154, 154, 154);
+    outline: none;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn-light[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    transform: scale(1.2);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+.btn-light:checked[type="checkbox"]::before{
+    left: 10px;
+}
+
+.btn-light:checked[type="checkbox"]{
+    background-color: #313131;
+}
+
+.social-media-icons{
+    display: flex;
+    color: #FFFFFF;
+}
+
+.menu-social-media-icons{
+    margin: 4px;
+}
+
+
+.navigation-bar{
+    display: block;
+    position: absolute;
+    top: 50px;
+    height: 0;
+    z-index: 1000;
+    background-color: #322f50;
+    width: 100%;
+    border-top: 2px solid hsl(64, 53%, 49%);
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+.navigation-bar-active{
+    height: calc(38vh - 50px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    font-size: 1em;
+    padding-bottom: 8px;
+    color: #FFFFFF;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.nav-menu:last-child{
+    border-bottom: none;
+}
+
+.nav-menu:hover{
+    border-left: solid 2px #b6be3a;
+}
+
+.icons-nav{
+    width: 10px;
+    margin: 8px;
+}
+
+.client-acess{
+    color: #b6be3a;
+}
+
+.dark, .dark body{
+    background-color: #313131;
+    color: #FFFFFF;
+}
+
+.dark .menu-header{
+    background-color: #212121;
+}
+
+.dark .navigation-bar{
+    background-color: #282828;
+}
+

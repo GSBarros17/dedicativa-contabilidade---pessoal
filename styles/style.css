@@ -164,3 +164,46 @@ header{
 .principal-card{
     width: 100%;
 }
+
+.container-who-we-are{
+    display: block;
+}
+
+.card-who-we-are{
+    display: flex;
+    margin: 10px;
+    border: solid 2px #4b4679;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: 2s;
+}
+
+.dark .card-who-we-are{
+    border: solid 2px #b6be3a;
+    background-color: #474747;
+}
+
+.icons-who-we-are{
+    text-align: center;
+    font-size: 3rem;
+    color: #474747;
+    margin: 10px;
+    transition: 2s;
+}
+
+.dark .icons-who-we-are{
+    color: #ffffff;
+}
+
+.text-who-we-are{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #282828;
+    transition: 2s;
+}
+
+.dark .text-who-we-are{
+    color: #e8e5e5;
+}
+

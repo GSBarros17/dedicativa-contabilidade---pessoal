@@ -88,16 +88,6 @@ header{
     top: 1px;
 }
 
-.social-media-icons{
-    display: flex;
-    color: #FFFFFF;
-}
-
-.menu-social-media-icons{
-    margin: 4px;
-}
-
-
 .navigation-bar{
     display: block;
     position: absolute;
@@ -207,3 +197,13 @@ header{
     color: #e8e5e5;
 }
 
+/*----------------------------------footer------------------------------------*/
+
+.social-media-icons{
+    display: flex;
+    color: #FFFFFF;
+}
+
+.menu-social-media-icons{
+    margin: 4px;
+}

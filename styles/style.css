@@ -1,8 +1,8 @@
 body{
-    height: 200vh;
     background-color: #e8e5e5;
     color: #212121;
     transition: 2s;
+    height: 200vh;
 }
 
 header{
@@ -40,9 +40,10 @@ header{
 .btn-light[type="checkbox"]{
     position: relative;
     margin-left: 10px;
-    width: 30px;
-    height: 16px;
+    width: 32px;
+    height: 18px;
     appearance: none;
+    border: 1px solid rgba(255, 255, 255, 0.8);
     background-color: rgb(95, 95, 95);
     outline: none;
     border-radius: 20px;
@@ -199,11 +200,45 @@ header{
 
 /*----------------------------------footer------------------------------------*/
 
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #474747;
+}
+
+.footer-information{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 30%;
+    margin-top: 16px;
+    padding-right: 16px;
+    border-right: 1px solid #e8e5e5;
+}
+
 .social-media-icons{
     display: flex;
     color: #FFFFFF;
+    padding: 16px 0px 0px 16px;
 }
 
 .menu-social-media-icons{
-    margin: 4px;
+    margin:4px;
+}
+
+.end-footer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 0.8rem;
+    color: #e8e5e5;
+}
+
+.end-footer-information p{
+    padding-bottom: 16px;
 }

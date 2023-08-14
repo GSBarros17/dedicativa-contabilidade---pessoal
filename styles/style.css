@@ -104,7 +104,7 @@ header{
 }
 
 .navigation-bar-active{
-    height: calc(38vh - 50px);
+    height: calc(350px - 50px);
     visibility: visible;
     overflow-y: auto;
 }

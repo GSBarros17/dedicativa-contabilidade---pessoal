@@ -2,7 +2,7 @@ body{
     background-color: #e8e5e5;
     color: #212121;
     transition: 2s;
-    height: 200vh;
+    height: 300vh;
 }
 
 header{
@@ -162,23 +162,25 @@ header{
 
 .card-who-we-are{
     display: flex;
-    margin: 10px;
+    margin: 16px;
     border: solid 2px #4b4679;
     border-radius: 10px;
     background-color: #ffffff;
+    box-shadow: 3px 5px 5px rgb(125, 125, 125);
     transition: 2s;
 }
 
 .dark .card-who-we-are{
     border: solid 2px #b6be3a;
     background-color: #474747;
+    box-shadow: none;
 }
 
 .icons-who-we-are{
     text-align: center;
     font-size: 3rem;
     color: #474747;
-    margin: 10px;
+    margin: 16px;
     transition: 2s;
 }
 
@@ -188,7 +190,7 @@ header{
 
 .text-who-we-are{
     text-align: left;
-    margin-top: 10px;
+    margin-top: 16px;
     font-size: 1rem;
     color: #282828;
     transition: 2s;
@@ -207,10 +209,63 @@ header{
 .principal-text{
     font-size: 2rem;
     font-weight: 600;
-    margin: 20px;
+    margin: 40px auto;
 }
 
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+}
 
+.cards-services{
+    width: 160px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgba(189, 189, 189, 0.5);
+    border: solid 2px #322d5a;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(125, 125, 125);
+}
+
+.dark .cards-services{
+    border: solid 2px #b6be3a;
+    box-shadow: none;
+}
+
+.cards-imgs{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards-texts{
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.button-service{
+   margin-top: 40px;
+   background-color: #cd2c2c;
+   color: #e8e5e5;
+   border-radius: 25px;
+   width: 35%;
+   height: 30px;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   box-shadow: inset -3px -3px 2px rgb(113, 22, 22), 3px 3px 2px rgb(71, 71, 71);
+   cursor: pointer;
+   transition: 2s;
+}
+
+.button-service:hover{
+    background-color: #a41a1a;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 35px;
+    transition: 2s;
+
+}
 
 
 /*----------------------------------footer------------------------------------*/
@@ -218,6 +273,7 @@ header{
 footer{
     width: 100vw;
     height: 200px;
+    margin-top: 100px;
     background-color: #474747;
 }
 

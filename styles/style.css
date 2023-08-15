@@ -204,12 +204,12 @@ header{
 
 footer{
     width: 100%;
-    height: 20vh;
+    height: 200px;
     background-color: #474747;
 }
 
 .footer-information{
-    height: 10vh;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,4 +243,70 @@ footer{
 
 .end-footer-information p{
     padding-bottom: 16px;
+}
+
+/*===================================Modal=============================*/
+
+.button-dev-card{
+    border-bottom: solid 2px #e8e5e5;
+    color: #4f95cb;
+    cursor: pointer;
+}
+
+dialog::backdrop{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+dialog{
+    margin-top: 40%;
+    width: 80%;
+    height: 20%;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
+    background-color: #ffffff;
+}
+
+.button-close-dev-card{
+    width: 30px;
+    height: 30px;
+    color: #e8e5e5;
+    background-color: #cd2c2c;
+    border: solid 2px #e8e5e5;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px #171717;
+    position: absolute;
+    top: 5px;
+    left: 90%;
+}
+
+dialog .card-img-name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    color: #212121;
+}
+
+dialog .foto-card{
+    width: 100px;
+    padding-right: 8px;
+}
+
+dialog .card-info-dev{
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    border-top: solid 4px #171717;
+    background-color: #322d5a;
+    color: #e8e5e5;
+    line-height: 1.5rem;
+}
+
+dialog .card-info-dev-text{
+    padding-left: 8px;
+    padding-bottom: 8px;
 }

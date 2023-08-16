@@ -221,7 +221,7 @@ header{
 
 .cards-services{
     width: 160px;
-    height: 180px;
+    height: 11rem;
     padding: 10px;
     background-color:#FFFFFF;
     border: solid 2px #322d5a;
@@ -230,13 +230,16 @@ header{
 }
 
 .dark .cards-services{
+    background-color: #474747;
     border: solid 2px #b6be3a;
+    transition: 2s;
     box-shadow: none;
 }
 
 .cards-imgs{
     width: 100%;
     border-radius: 10px;
+    box-shadow: 3px 4px 3px rgb(71, 71, 71);
 }
 
 .cards-texts{

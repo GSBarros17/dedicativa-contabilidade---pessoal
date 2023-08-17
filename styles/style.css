@@ -3,6 +3,7 @@ body{
     color: #212121;
     transition: 2s;
     height: 300vh;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header{
@@ -190,8 +191,9 @@ header{
 
 .text-who-we-are{
     text-align: left;
-    margin-top: 16px;
     font-size: 1rem;
+    padding: 16px 0px;
+    font-weight: 400;
     color: #282828;
     transition: 2s;
 }
@@ -244,6 +246,7 @@ header{
 
 .cards-texts{
     margin-top: 16px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 

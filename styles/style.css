@@ -1,8 +1,8 @@
 body{
     background-color: #e8e5e5;
+    height: 100%;
     color: #212121;
     transition: 2s;
-    height: 300vh;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -41,7 +41,7 @@ hr{
     box-sizing: border-box;
     height: 50px;
     background-color: #322f50;
-    border-bottom: solid 2px #e8e5e5;
+    border-bottom: solid 1px #b6be3a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -312,7 +312,7 @@ hr{
 }
 
 .contact-text{
-    width: 50%;
+    width: 300px;
     text-align:left;
     padding: 32px 8px;
     font-size: 1rem;
@@ -326,13 +326,32 @@ hr{
 
 }
 
+.location-maps{
+    width: 90%;
+    margin: 32px auto;
+    padding: 16px 0px;
+    border-radius: 15px;
+    background-color: #171717;
+}
+
+.locatino-info{
+    text-align: left;
+    margin-left: 24px;
+    color: #e8e5e5;
+    line-height: 1.5rem;
+}
+
+.locatino-info h2{
+    font-size: 1.2rem;
+}
+
 
 /*----------------------------------footer------------------------------------*/
 
 footer{
     width: 100%;
     height: 12.5rem;
-    margin-top: 100px;
+    margin-top: 60px;
     background-color: #474747;
 }
 

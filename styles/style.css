@@ -276,7 +276,7 @@ hr{
    height: 30px;
    font-size: 1.2rem;
    text-transform: uppercase;
-   box-shadow: inset -3px -3px 2px rgb(113, 22, 22), 3px 3px 2px rgb(71, 71, 71);
+   box-shadow: inset -3px -3px 2px rgb(113, 22, 22), 2px 2px 4px rgb(71, 71, 71);
    cursor: pointer;
    transition: 2s;
 }
@@ -299,7 +299,6 @@ hr{
 .contact-info{
     display: flex;
     justify-content: center;
-    background-color: #474747;
     padding: 8px 0px;
     margin-bottom: 24px;
 }
@@ -316,7 +315,6 @@ hr{
     width: 50%;
     text-align:left;
     padding: 32px 8px;
-    color: #e8e5e5;
     font-size: 1rem;
 }
 

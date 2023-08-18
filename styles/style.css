@@ -14,10 +14,34 @@ header{
 
 }
 
+/*========================geral atributes=======================*/
+hr{
+    border-style: none;
+    border-top-style: solid;
+    border-width: 2px;
+    color: #b6be3a;
+    width: 60%;
+    margin: 32px auto;
+}
+
+
+.principal-text{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 32px auto;
+
+}
+
+/*================================================================*/
+
+
 .menu-header{
     box-sizing: border-box;
     height: 50px;
     background-color: #322f50;
+    border-bottom: solid 2px #e8e5e5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,13 +229,6 @@ header{
 .container-service{
     text-align: center;
     width: 100%;
-    margin: 20px auto;
-}
-
-.principal-text{
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 40px auto;
 }
 
 .cards{
@@ -255,7 +272,7 @@ header{
    background-color: #cd2c2c;
    color: #e8e5e5;
    border-radius: 25px;
-   width: 35%;
+   width: 40%;
    height: 30px;
    font-size: 1.2rem;
    text-transform: uppercase;
@@ -270,6 +287,44 @@ header{
     width: 40%;
     height: 35px;
     transition: 2s;
+
+}
+
+.contact-area{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    background-color: #474747;
+    padding: 8px 0px;
+    margin-bottom: 24px;
+}
+
+.contact-image{
+    width: 50%;
+    border-radius: 10px;
+    border: solid 2px #4b4679;
+    box-shadow: 1px 1px 1px #b6be3a, -1px -1px 1px #e8e5e5;
+    margin: 8px;
+}
+
+.contact-text{
+    width: 50%;
+    text-align:left;
+    padding: 32px 8px;
+    color: #e8e5e5;
+    font-size: 1rem;
+}
+
+.contact-area h3{
+    width: 90%;
+    margin: 0px auto;
+    font-weight: 600;
+    font-size: 1.2rem;
 
 }
 

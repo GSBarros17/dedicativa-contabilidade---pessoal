@@ -239,9 +239,9 @@ hr{
 }
 
 .cards-services{
-    width: 160px;
+    width: 9rem;
     height: 11rem;
-    padding: 10px;
+    padding: 0.5rem;
     background-color:#FFFFFF;
     border: solid 2px #322d5a;
     border-radius: 10px;
@@ -262,7 +262,7 @@ hr{
 }
 
 .cards-texts{
-    margin-top: 16px;
+    margin-top: 1rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -339,10 +339,6 @@ hr{
     margin-left: 24px;
     color: #e8e5e5;
     line-height: 1.5rem;
-}
-
-.locatino-info h2{
-    font-size: 1.2rem;
 }
 
 

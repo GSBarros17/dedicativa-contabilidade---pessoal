@@ -15,6 +15,17 @@ header{
 }
 
 /*========================geral atributes=======================*/
+
+span{
+    font-weight: 600;
+    color: #171717;
+    transition: 2s;
+}
+
+.dark span{
+    color: #e8e5e5;
+}
+
 hr{
     border-style: none;
     border-top-style: solid;
@@ -216,7 +227,7 @@ hr{
 .text-who-we-are{
     text-align: left;
     font-size: 1rem;
-    padding: 16px 0px;
+    padding: 16px 8px 16px 8px;
     font-weight: 400;
     color: #282828;
     transition: 2s;
@@ -386,6 +397,11 @@ footer{
 
 .end-footer-information p{
     padding-bottom: 16px;
+}
+
+.current-date{
+    color: #e8e5e5;
+    font-weight: 400;
 }
 
 /*===================================Modal=============================*/

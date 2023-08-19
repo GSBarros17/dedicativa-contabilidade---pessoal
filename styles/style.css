@@ -217,9 +217,9 @@ hr{
 
 .icons-who-we-are{
     text-align: center;
-    font-size: 3rem;
+    font-size: 250%;
     color: #474747;
-    margin: 16px;
+    margin: auto 16px;
     transition: 2s;
 }
 
@@ -230,7 +230,7 @@ hr{
 .text-who-we-are{
     text-align: left;
     font-size: 1rem;
-    padding: 16px 8px 16px 8px;
+    padding: 16px 8px;
     font-weight: 400;
     color: #282828;
     transition: 2s;
@@ -416,15 +416,14 @@ footer{
 }
 
 dialog{
-    width: 80%;
-    height: 20%;
+    width: 300px;
+    height: 150px;
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
     background-color: #ffffff;
     position: absolute;
     z-index: 10;
-    top: 230vh;
 }
 
 .button-close-dev-card{
@@ -457,10 +456,10 @@ dialog .foto-card{
 
 dialog .card-info-dev{
     position: absolute;
-    top: 60%;
     left: 0px;
     width: 100%;
     border-top: solid 4px #171717;
+    border-radius: .0rem .0rem .5rem .5rem;
     background-color: #322d5a;
     color: #e8e5e5;
     line-height: 1.5rem;

@@ -253,8 +253,8 @@ hr{
 }
 
 .cards-services{
-    width: 9rem;
-    height: 11rem;
+    width: 80%;
+    height: 100%;
     padding: 0.5rem;
     background-color:#FFFFFF;
     border: solid 2px #322d5a;

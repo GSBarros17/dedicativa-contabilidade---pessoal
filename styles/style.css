@@ -341,11 +341,11 @@ hr{
 }
 
 .location-maps{
-    width: 90%;
+    width: 400px;
     margin: 32px auto;
     padding: 16px 0px;
     border-radius: 15px;
-    background-color: #171717;
+    background-color: #212121;
 }
 
 .locatino-info{

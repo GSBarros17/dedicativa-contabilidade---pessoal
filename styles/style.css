@@ -47,7 +47,7 @@ hr{
     text-transform: uppercase;
     text-align: center;
     margin: 32px auto;
-    text-shadow: 2px 2px 3px #212121;
+    text-shadow: 2px 2px 2px #212121;
 }
 
 .button-red{
@@ -72,6 +72,18 @@ hr{
      height: 35px;
      transition: 2s;
  }
+
+@media screen and (min-width: 850px){
+    .principal-text{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 48px auto;
+        text-shadow: 2px 2px 2px #212121;
+    }
+    
+}
 
 /*================================================================*/
 
@@ -197,7 +209,7 @@ hr{
 
 @media screen and (min-width: 850px){
     .menu-header{
-        height: 100px;
+        height: 60px;
         border-bottom: none;
         padding: 16px;
     }
@@ -207,46 +219,26 @@ hr{
     }
 
     .logo-header{
-        width: 25%;
+        width: 20%;
         margin: 8px;
     }
 
     .btn-light[type="checkbox"]{
-        width: 3.5rem;
-        height: 2rem;
+        width: 3rem;
+        height: 1.5rem;
     }
     
     .btn-light[type="checkbox"]::before{
         content: '💡';
-        font-size: 18px;
+        font-size: 12px;
         position: absolute;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
     }
     
     .btn-light:checked[type="checkbox"]::before{
         left: 26px;
     }
-    
-    /*=============================Instruções inativas do botão de luz=======================*/
-    /*
-    .btn-light[type="checkbox"]::after{
-        content: "";
-        font-size: 10px;
-        position: absolute;
-        left: 15px;
-        top: 1px;
-    }
-    */
-    /*
-    .btn-light:checked[type="checkbox"]:after{
-        content: "";
-        font-size: 10px;
-        position: absolute;
-        left: 2px;
-        top: 1px;
-    }
-    */
 
     .navigation-bar{
         display: flex;
@@ -269,7 +261,7 @@ hr{
         padding-right: 8px;
         padding-bottom: 0px;
         margin-bottom: 8px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border-bottom: none;
     }
 
@@ -280,7 +272,6 @@ hr{
 
     .icons-nav{
         width: 1.2rem;
-        padding-right: 8px;
         margin: 8px;
     }
 }
@@ -359,6 +350,7 @@ hr{
     border: solid 2px #322d5a;
     border-radius: 10px;
     box-shadow: 3px 5px 5px rgb(125, 125, 125);
+    transition: 2s;
 }
 
 .dark .cards-services{
@@ -375,7 +367,8 @@ hr{
 }
 
 .cards-texts{
-    margin-top: 1rem;
+    margin: 16px auto auto auto;
+    width: 80%;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -430,6 +423,74 @@ hr{
     margin-left: 24px;
     color: #e8e5e5;
     line-height: 1.5rem;
+}
+
+.map-mobile{
+    display: inline;
+}
+
+.map-desktop{
+    display: none;
+}
+
+@media screen and (min-width: 850px){
+    .principal-card{
+        display: none;
+    }
+
+    .container-who-we-are{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-who-we-are{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+        margin: 32px;
+    }
+
+    .icons-who-we-are{
+        font-size: 4rem;
+        margin: 32px 8px;
+    }
+
+    .container-service{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 50px;
+    }
+
+
+    .cards-services{
+        width: 70%;
+    }
+
+    .contact-area{
+        width: 60%;
+    }
+
+    .contact-text{
+        font-size: 1.2rem;
+    }
+
+    .location-maps{
+        width: 700px;
+    }
+
+    .map-desktop{
+        display: inline;
+    }
+
+    .map-mobile{
+        display: none;
+    }
+   
 }
 
 

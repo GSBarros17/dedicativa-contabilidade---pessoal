@@ -61,7 +61,8 @@ hr{
  .button-red:hover{
      background-color: #a41a1a;
      font-size: 1.5rem;
-     width: 40%;
+     box-shadow: 4px 4px 4px rgb(71, 71, 71);
+     width: 170px;
      height: 35px;
      transition: 2s;
  }
@@ -271,7 +272,7 @@ hr{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    row-gap: 2rem;
+    row-gap: 3rem;
 }
 
 .cards-services{
@@ -417,7 +418,7 @@ footer{
 
 dialog{
     width: 300px;
-    height: 190px;
+    height: 160px;
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);

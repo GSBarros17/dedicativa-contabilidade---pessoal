@@ -41,6 +41,7 @@ hr{
     text-transform: uppercase;
     text-align: center;
     margin: 32px auto;
+    text-shadow: 2px 2px 3px #212121;
 }
 
 .button-red{
@@ -416,12 +417,12 @@ footer{
 
 dialog{
     width: 300px;
-    height: 150px;
+    height: 190px;
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
     background-color: #ffffff;
-    position: absolute;
+    top: 50%;
     z-index: 10;
 }
 
@@ -458,6 +459,7 @@ dialog .card-info-dev{
     left: 0px;
     width: 100%;
     border-top: solid 4px #171717;
+    padding-top:8px;
     border-radius: .0rem .0rem .5rem .5rem;
     background-color: #322d5a;
     color: #e8e5e5;

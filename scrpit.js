@@ -15,7 +15,7 @@ const buttonDevCard = document.querySelector(".button-dev-card")
 const modal = document.querySelector("dialog")
 const buttonCloseDevCard = document.querySelector(".button-close-dev-card")
 buttonDevCard.addEventListener("click", () => {
-    modal.show()
+    modal.showModal()
 })
 buttonCloseDevCard.addEventListener("click", () => {
     modal.close()

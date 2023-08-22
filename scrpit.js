@@ -29,21 +29,36 @@ document.querySelector(".current-date").textContent = anoAtual
 
 /*========================================página serviços=========================*/
 
-const button = document.querySelector(".btn-card");
-const showText = document.querySelector(".dnone");
+/*
+const button = document.querySelectorAll(".btn-card");
+const showText = document.querySelectorAll(".dnone");
 
 button.addEventListener('click', () => {
     showText.classList.toggle('dnone');
     button.classList.toggle('btn-card-hide')
 
-    /*if(button.style.display !== "none"){
+    if(button.style.display !== "none"){
         button.textContent="-"
     } else { button.textContent="+"
     }
-    */
+    
     if (showText.classList.contains('dnone')) {
         button.textContent = "+";
     } else {
         button.textContent = "-";
     }
 })
+*/
+
+const buttons = document.querySelectorAll(".btn-card");
+const showTexts = document.querySelectorAll(".dnone");
+
+function toggleTextVisibility() {
+    showTexts.forEach(text => text.classList.toggle('dnone'));
+    buttons.forEach(button => button.classList.toggle('btn-card-hide'));
+
+    const isTextVisible = !showTexts[0].classList.contains('dnone');
+    buttons.forEach(button => button.textContent = isTextVisible ? "-" : "+");
+}
+
+buttons.forEach(button => button.addEventListener('click', toggleTextVisibility));

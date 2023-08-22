@@ -1,9 +1,42 @@
+
+
+.card-service{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.tittel-card-service{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.text-card-service{
+    text-align: justify;
+    padding: 24px;
+    font-size: 1rem;
+}
+
+.img-card-service{
+    width: 90%;
+    margin: 8px auto;
+}
+
 .text-card{
     width: 90%;
+    background-color: #ffffff;
     text-align: justify;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 1em;
     display: block;
+}
+
+.info-text-service{
+    margin-bottom: 8px;
 }
 
 .dnone{

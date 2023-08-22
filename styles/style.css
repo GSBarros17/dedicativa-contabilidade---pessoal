@@ -209,7 +209,7 @@ hr{
 
 @media screen and (min-width: 850px){
     .menu-header{
-        height: 60px;
+        height: 70px;
         border-bottom: none;
         padding: 16px;
     }
@@ -220,7 +220,7 @@ hr{
 
     .logo-header{
         width: 20%;
-        margin: 8px;
+        margin: 16px;
     }
 
     .btn-light[type="checkbox"]{

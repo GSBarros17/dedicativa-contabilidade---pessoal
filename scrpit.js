@@ -27,4 +27,23 @@ buttonCloseDevCard.addEventListener("click", () => {
 let anoAtual = new Date().getFullYear()
 document.querySelector(".current-date").textContent = anoAtual
 
+/*========================================página serviços=========================*/
 
+const button = document.querySelector(".btn-card");
+const showText = document.querySelector(".dnone");
+
+button.addEventListener('click', () => {
+    showText.classList.toggle('dnone');
+    button.classList.toggle('btn-card-hide')
+
+    /*if(button.style.display !== "none"){
+        button.textContent="-"
+    } else { button.textContent="+"
+    }
+    */
+    if (showText.classList.contains('dnone')) {
+        button.textContent = "+";
+    } else {
+        button.textContent = "-";
+    }
+})

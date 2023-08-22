@@ -1,0 +1,34 @@
+.text-card{
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 1.2em;
+    display: block;
+}
+
+.dnone{
+    display: none;
+}
+
+.btn-card{
+    font-size: 2em;
+    font-weight: 500;
+    width: 42px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgb(93, 218, 44);
+    margin: 10px auto;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn-card:hover{
+    transition: 1s;
+    box-shadow: 2px 2px 5px black;
+    opacity: 1;
+}
+
+.btn-card-hide{
+    background-color: rgb(204, 13, 13);
+}

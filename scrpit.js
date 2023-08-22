@@ -27,3 +27,4 @@ buttonCloseDevCard.addEventListener("click", () => {
 let anoAtual = new Date().getFullYear()
 document.querySelector(".current-date").textContent = anoAtual
 
+

@@ -394,8 +394,13 @@ hr{
     width: 50%;
     border-radius: 10px;
     border: solid 2px #4b4679;
-    box-shadow: 1px 1px 1px #b6be3a, -1px -1px 1px #e8e5e5;
+    box-shadow: 3px 4px 3px rgb(71, 71, 71);
     margin: 8px;
+}
+
+.dark .contact-image{
+    border: solid 2px #b6be3a;
+    box-shadow: none;
 }
 
 .contact-text{

@@ -29,10 +29,29 @@ document.querySelector(".current-date").textContent = anoAtual
 
 /*========================================página serviços=========================*/
 
-/*
-const button = document.querySelectorAll(".btn-card");
-const showText = document.querySelectorAll(".dnone");
 
+const buttons = document.querySelectorAll(".btn-card");
+const showTexts = document.querySelectorAll(".dnone");
+
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function() {
+        showTexts[i].classList.toggle("dnone");
+        buttons[i].classList.toggle('btn-card-hide')
+
+        if(buttons[i].style.display !== "none"){
+            buttons[i].textContent="-"
+        } else { buttons[i].textContent="+"
+        }
+        
+        if (showTexts[i].classList.contains('dnone')) {
+            buttons[i].textContent = "+";
+        } else {
+            buttons[i].textContent = "-";
+        }
+    });
+}
+
+/*
 button.addEventListener('click', () => {
     showText.classList.toggle('dnone');
     button.classList.toggle('btn-card-hide')
@@ -50,19 +69,11 @@ button.addEventListener('click', () => {
 })
 */
 
-const buttons = document.querySelectorAll(".btn-card");
-const showTexts = document.querySelectorAll(".dnone");
-const moreInfo = document.querySelectorAll(".info-btn")
 
-function toggleTextVisibility() {
-    showTexts.forEach(text => text.classList.toggle('dnone'));
-    buttons.forEach(button => button.classList.toggle('btn-card-hide'));
-    moreInfo.forEach(text => text.classList.toggle('info-btn-none'))
 
-    const textVisible = !showTexts[0].classList.contains('dnone');
-    buttons.forEach(button => button.textContent = textVisible ? "-" : "+");
 
-    
-}
 
-buttons.forEach(button => button.addEventListener('click', toggleTextVisibility));
+
+
+
+

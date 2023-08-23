@@ -52,13 +52,17 @@ button.addEventListener('click', () => {
 
 const buttons = document.querySelectorAll(".btn-card");
 const showTexts = document.querySelectorAll(".dnone");
+const moreInfo = document.querySelectorAll(".info-btn")
 
 function toggleTextVisibility() {
     showTexts.forEach(text => text.classList.toggle('dnone'));
     buttons.forEach(button => button.classList.toggle('btn-card-hide'));
+    moreInfo.forEach(text => text.classList.toggle('info-btn-none'))
 
-    const isTextVisible = !showTexts[0].classList.contains('dnone');
-    buttons.forEach(button => button.textContent = isTextVisible ? "-" : "+");
+    const textVisible = !showTexts[0].classList.contains('dnone');
+    buttons.forEach(button => button.textContent = textVisible ? "-" : "+");
+
+    
 }
 
 buttons.forEach(button => button.addEventListener('click', toggleTextVisibility));

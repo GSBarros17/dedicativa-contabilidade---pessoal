@@ -13,6 +13,8 @@
 
 .dark .card-service{
     background-color: #383838;
+    box-shadow: none;
+    border: 2px solid #b6be3a;
 }
 
 .tittel-card-service{
@@ -38,6 +40,10 @@
 .info-btn{
     font-size: 0.8rem;
     color: #555555;
+    margin-bottom: 16px;
+}
+
+.info-btn-none{
     display: none;
 }
 
@@ -65,12 +71,12 @@
 .btn-card{
     font-size: 2em;
     font-weight: 500;
-    width: 42px;
+    width: 40px;
     border-radius: 50%;
     border: none;
     color: white;
     background-color: rgb(93, 218, 44);
-    margin: 10px auto;
+    margin: 0px auto;
     cursor: pointer;
     opacity: 0.5;
 }

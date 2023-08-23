@@ -1,4 +1,6 @@
-
+.container-service{
+    margin-top: 56px;
+}
 
 .card-service{
     display: flex;
@@ -20,6 +22,7 @@
 .tittel-card-service{
     font-weight: 600;
     text-align: center;
+    text-transform: uppercase;
     font-size: 1rem;
     margin: 8px auto;
 }

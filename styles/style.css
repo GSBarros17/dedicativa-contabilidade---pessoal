@@ -47,7 +47,7 @@ hr{
     text-transform: uppercase;
     text-align: center;
     margin: 32px auto;
-    text-shadow: 2px 2px 2px #212121;
+    text-shadow: 2px 2px 4px #303030;
 }
 
 .button-red{

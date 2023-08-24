@@ -79,15 +79,9 @@
     border: none;
     color: white;
     background-color: rgb(93, 218, 44);
+    box-shadow: 2px 2px 4px #383838;
     margin: 0px auto;
     cursor: pointer;
-    opacity: 0.5;
-}
-
-.btn-card:hover{
-    transition: 1s;
-    box-shadow: 2px 2px 5px black;
-    opacity: 1;
 }
 
 .btn-card-hide{

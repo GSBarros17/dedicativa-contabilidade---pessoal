@@ -32,11 +32,13 @@ document.querySelector(".current-date").textContent = anoAtual
 
 const buttons = document.querySelectorAll(".btn-card");
 const showTexts = document.querySelectorAll(".dnone");
+const showMore = document.querySelectorAll(".info-btn");
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() {
         showTexts[i].classList.toggle("dnone");
         buttons[i].classList.toggle('btn-card-hide')
+        showMore[i].classList.toggle('info-btn-none')
 
         if(buttons[i].style.display !== "none"){
             buttons[i].textContent="-"
@@ -51,23 +53,6 @@ for (let i = 0; i < buttons.length; i++) {
     });
 }
 
-/*
-button.addEventListener('click', () => {
-    showText.classList.toggle('dnone');
-    button.classList.toggle('btn-card-hide')
-
-    if(button.style.display !== "none"){
-        button.textContent="-"
-    } else { button.textContent="+"
-    }
-    
-    if (showText.classList.contains('dnone')) {
-        button.textContent = "+";
-    } else {
-        button.textContent = "-";
-    }
-})
-*/
 
 
 

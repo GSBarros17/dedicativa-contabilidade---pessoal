@@ -1,12 +1,15 @@
 .img-card-principal-mobile{
     width: 100%;
-    height: 20%;
-    top: 50px;
+    height: 150px;
+    top: 0px;
     opacity: 0.6;
     position: absolute;
     z-index: -10;
 }
 
+.img-card-principal-desktop{
+    display: none;
+}
 .container-service{
     margin-top: 56px;
 }

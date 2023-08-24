@@ -135,6 +135,10 @@
         box-shadow: none;
     }
 
+    .dark .card-service{
+        border: none;
+    }
+
     .title-img-card-service{
         display: flex;
         flex-direction: column;

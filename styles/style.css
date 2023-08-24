@@ -66,8 +66,7 @@ hr{
  
  .button-red:hover{
      background-color: #a41a1a;
-     font-size: 1.5rem;
-     box-shadow: 4px 4px 4px rgb(71, 71, 71);
+     box-shadow:inset -3px -3px 2px rgb(113, 22, 22), 4px 4px 4px rgb(71, 71, 71);
      width: 170px;
      height: 35px;
      transition: 2s;

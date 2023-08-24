@@ -79,7 +79,11 @@ hr{
         text-transform: uppercase;
         text-align: center;
         margin: 48px auto;
-        text-shadow: 2px 2px 2px #212121;
+        text-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #a4a4a4;
+    }
+
+    .dark .principal-text{
+        text-shadow: 2px 1px 1px #000000;
     }
     
 }

@@ -19,6 +19,21 @@
     margin: 32px auto;
 }
 
+.sub-text-principal{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 16px;
+    color: #2a2a2a;
+    border-bottom: 2px solid #4b4679;
+}
+
+.contact-text{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 8px;
+    width: 100%;
+}
+
 .form-body{
     display: flex;
     flex-direction: column;
@@ -26,8 +41,8 @@
     background-color: #979797;
     box-shadow:2px 2px 3px #595959, 3px 3px 2px #2a2a2a;
     box-sizing: border-box;
-    width: 100%;
-    margin: 32px auto;
+    width: 90%;
+    margin: 24px auto;
     padding: 24px;
     border-radius: 15px;
 }
@@ -38,7 +53,7 @@
 
 .form-input{
     width: 100%;
-    padding: 8px 4px;
+    padding: 16px 4px;
     border: none;
     opacity: 0.7;
     margin: 8px 0px;
@@ -59,7 +74,7 @@
     font-size: 1rem;
     font-weight: 600;
     color: #FFFFFF;
-    background-color: #626262;
+    background-color: #5b5b5b;
     border: 2px solid #4b4679;
     border-radius: 15px;
     box-shadow:2px 2px 5px #494949;

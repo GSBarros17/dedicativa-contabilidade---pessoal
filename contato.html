@@ -30,7 +30,17 @@
         <img class="img-card-principal-mobile" src="./imagens/banner-mobile.png" alt="">
         <img class="img-card-principal-desktop" src="./imagens/dedicativa-card-principal-desktop.jpg" alt="imagens de prédios" />
         <h1 class="principal-text">Contatos</h1>
-
+        <form class="form-body" action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="85210542-0c4e-4056-84e1-625717133e17"> 
+            <label class="form-text" for="">Nome:</label>
+            <input class="form-input" type="text" name="name" placeholder="digite seu nome" autocomplete="off" required>
+            <label class="form-text" for="">E-mail</label>
+            <input class="form-input" type="email" name="email" placeholder="exemplo@gmail.com" autocomplete="off" required>
+            <label class="form-text">Mensagem:</label>
+            <textarea class="form-input" name="message" cols="30" rows="10" placeholder="escreva sua mensagem" required></textarea>
+            <button class="form-btn" type="submit">Enviar</button>
+            <!--<input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/agradecimento.html">-->
+        </form>
     </main>
     <footer>
         <section class="footer-information">

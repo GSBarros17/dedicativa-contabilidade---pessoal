@@ -120,4 +120,8 @@
         position: absolute;
         z-index: -10;
     }
+
+    .form-body{
+        width: 50%;
+    }
 }

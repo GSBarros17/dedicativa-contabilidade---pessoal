@@ -20,10 +20,14 @@
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #322d5a;
     width: 40%;
     margin-left: 16px;
     padding: 8px;
+}
+
+.dark .principal-texts{
+    border-bottom: 2px solid #b6be3a;
 }
 
 .texts-info{

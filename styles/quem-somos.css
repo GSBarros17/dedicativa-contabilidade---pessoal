@@ -36,3 +36,9 @@
     margin: 8px 32px;
     border-radius: 15px;
 }
+
+.icons{
+    padding: 8px;
+    width: 30%;
+    margin: 8px auto;
+}

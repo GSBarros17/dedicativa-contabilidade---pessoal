@@ -17,11 +17,12 @@
 }
 
 .texts-info{
-    margin: 32px;
+    margin: 16px;
 
 }
 
 .img-card{
-    width: 50%;
+    width: 60%;
     margin: 8px 32px;
+    border-radius: 15px;
 }

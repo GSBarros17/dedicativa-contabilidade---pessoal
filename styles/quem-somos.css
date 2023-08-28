@@ -37,8 +37,30 @@
     border-radius: 15px;
 }
 
+.info-container{
+    display: flex;
+    flex-direction: row;
+}
+
 .icons{
     padding: 8px;
-    width: 30%;
-    margin: 8px auto;
+    width: 20%;
+    margin: 16px auto;
+}
+
+.texts-container{
+    width: 60%;
+    margin: auto;
+    padding: auto;
+}
+
+.info-container ul{
+    width: 60%;
+    margin: auto;
+    padding: auto;
+}
+
+.info-container li{
+    font-weight: 600;
+    line-height: 1.2rem;
 }

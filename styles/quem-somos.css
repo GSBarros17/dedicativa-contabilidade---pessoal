@@ -62,5 +62,12 @@
 
 .info-container li{
     font-weight: 600;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
 }
+
+.info-container li:before {
+    content: '\2022';
+    margin: 0 2px;
+    color: #e74c3c
+   }

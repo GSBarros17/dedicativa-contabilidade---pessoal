@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts-info{
+    margin: 32px;
+
+}
+
+.img-card{
+    width: 50%;
+    margin: 8px 32px;
+}

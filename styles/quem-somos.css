@@ -36,9 +36,14 @@
 }
 
 .img-card{
-    width: 60%;
-    margin: 8px 32px;
+    width: 70%;
+    margin: 8px auto;
     border-radius: 15px;
+    box-shadow: 2px 2px 5px #252525;
+}
+
+.dark .img-card{
+    box-shadow: 2px 2px 5px #848484;
 }
 
 .info-container{
@@ -56,6 +61,7 @@
     width: 60%;
     margin: auto;
     padding: auto;
+    font-weight: 600;
 }
 
 .info-container ul{

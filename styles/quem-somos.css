@@ -93,4 +93,18 @@
         position: absolute;
         z-index: -10;
     }
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+
+    .img-card{
+       position: relative;
+    }
+
+    .container-objetives{
+        width: 70%;
+        margin: auto;
+    }
+
 }

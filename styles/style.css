@@ -179,9 +179,8 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 8px;
     font-size: 1rem;
-    padding-bottom: 8px;
+    padding: 8px;
     color: #FFFFFF;
     border-bottom: 2px solid hsla(0, 0%, 100%, 0.5);
 }

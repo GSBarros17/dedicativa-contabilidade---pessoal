@@ -118,7 +118,7 @@ hr{
 
 .btn-light[type="checkbox"]{
     position: relative;
-    margin-left: 10px;
+    margin-right: 16px;
     width: 2rem;
     height: 1.1rem;
     appearance: none;

@@ -10,8 +10,9 @@
 .img-card-principal-desktop{
     display: none;
 }
-.container-service{
+.container-card-service{
     margin-top: 56px;
+    text-align: center;
 }
 
 .card-service{
@@ -125,7 +126,7 @@
         z-index: -10;
     }
 
-    .container-service{
+    .container-card-service{
         margin-top: -8px;
         width: 90%;
     }

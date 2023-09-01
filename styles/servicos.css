@@ -24,11 +24,11 @@
     padding: 16px;
     margin: 32px 16px;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px #383838;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
 }
 
 .dark .card-service{
-    background-color: #414141;
+    background-color: #474747;
     box-shadow: none;
     border: 2px solid #b6be3a;
 }
@@ -44,7 +44,7 @@
 .img-card-service{
     width: 90%;
     border-radius: 15px;
-    box-shadow: 2px 2px 4px #383838;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
     margin: 8px auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .dark .text-card{
-    background-color: #414141;
+    background-color: #474747;
 }
 
 .text-card li{
@@ -101,7 +101,7 @@
     border: none;
     color: white;
     background-color: rgb(76, 184, 33);
-    box-shadow: 2px 2px 4px #383838;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
     margin: 0px auto;
     cursor: pointer;
 }
@@ -164,8 +164,6 @@
     }
 
     .img-card-service{
-        width: 90%;
-        box-shadow: 3px 3px 4px #383838;
         margin: 16px auto;
     }
 

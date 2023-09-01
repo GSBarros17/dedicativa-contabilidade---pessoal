@@ -50,14 +50,15 @@
 
 .text-card-service{
     text-align: justify;
-    padding: 16px;
+    width: 90%;
+    margin: 16px auto;
     font-size: 1rem;
 }
 
 .info-btn{
     font-size: 0.8rem;
     color: #555555;
-    margin-bottom: 16px;
+    margin: 16px auto;
 }
 
 .dark .info-btn{
@@ -83,8 +84,9 @@
 
 .text-card li{
     width: 80%;
-    padding: 8px 0px 8px 56px;
-    text-align: justify;
+    margin: 0px auto;
+    padding: 8px;
+    text-align: left;
 }
 
 .dnone{
@@ -167,13 +169,17 @@
         margin: 16px auto;
     }
 
+    .text-card li{
+        padding: 8px 0px 8px 56px;
+    }
+
     .sub-card-service{
         width: 50%;
         padding: 32px;
     }
 
     .text-card-service{
-        padding: 24px 64px;
+        padding: 24px;
         font-weight: 600;
     }
 

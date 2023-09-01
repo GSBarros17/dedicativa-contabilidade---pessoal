@@ -1,8 +1,8 @@
 body{
     background-color: #e8e5e5;
     height: 100%;
-    color: #212121;
-    transition: 2s;
+    color: #282828;
+    transition: 1s;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -24,7 +24,7 @@ header{
 span{
     font-weight: 600;
     color: #171717;
-    transition: 2s;
+    transition: 1s;
 }
 
 .dark span{
@@ -289,11 +289,11 @@ hr{
 .card-who-we-are{
     display: flex;
     margin: 16px;
-    border: solid 2px #4b4679;
+    border: solid 2px #322f50;
     border-radius: 10px;
     background-color: #ffffff;
-    box-shadow: 3px 5px 5px rgb(125, 125, 125);
-    transition: 2s;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
+    transition: 1s;
 }
 
 .dark .card-who-we-are{
@@ -307,7 +307,7 @@ hr{
     font-size: 3rem;
     color: #474747;
     margin: auto 16px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .dark .icons-who-we-are{
@@ -319,8 +319,7 @@ hr{
     font-size: 1rem;
     padding: 16px 8px;
     font-weight: 400;
-    color: #282828;
-    transition: 2s;
+    transition: 1s;
 }
 
 .dark .text-who-we-are{
@@ -346,8 +345,8 @@ hr{
     background-color:#FFFFFF;
     border: solid 2px #322d5a;
     border-radius: 10px;
-    box-shadow: 3px 5px 5px rgb(125, 125, 125);
-    transition: 2s;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
+    transition: 1s;
 }
 
 .dark .cards-services{
@@ -360,7 +359,7 @@ hr{
 .cards-imgs{
     width: 100%;
     border-radius: 10px;
-    box-shadow: 3px 4px 3px rgb(71, 71, 71);
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
 }
 
 .cards-texts{
@@ -387,8 +386,8 @@ hr{
 .contact-image{
     width: 50%;
     border-radius: 10px;
-    border: solid 2px #4b4679;
-    box-shadow: 3px 4px 3px rgb(71, 71, 71);
+    border: solid 2px #322f50;
+    box-shadow: 3px 5px 5px rgb(71, 71, 71);
     margin: 8px;
 }
 
@@ -418,7 +417,7 @@ hr{
     margin: 32px auto;
     padding: 16px 0px;
     border-radius: 15px;
-    background-color: #212121;
+    background-color: #282828;
 }
 
 .locatino-info{

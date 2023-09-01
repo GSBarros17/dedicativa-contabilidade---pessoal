@@ -11,7 +11,7 @@
     display: none;
 }
 
-.container-main{
+.container{
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +90,7 @@
     .img-card-principal-mobile{
         display: none;
     }
+    
     .img-card-principal-desktop{
         display: block;
         width: 100%;
@@ -99,13 +100,10 @@
         position: absolute;
         z-index: -10;
     }
+
     .container{
         width: 70%;
         margin: auto;
-    }
-
-    .img-card{
-       position: relative;
     }
 
     .container-objetives{

@@ -89,27 +89,6 @@
     text-align: left;
 }
 
-.dnone{
-    display: none;
-}
-
-.btn-card{
-    font-size: 2em;
-    font-weight: 500;
-    width: 40px;
-    border-radius: 50%;
-    border: none;
-    color: white;
-    background-color: rgb(76, 184, 33);
-    box-shadow: 3px 5px 5px rgb(71, 71, 71);
-    margin: 0px auto;
-    cursor: pointer;
-}
-
-.btn-card-hide{
-    background-color: rgb(204, 13, 13);
-}
-
 @media screen and (min-width: 850px){
     body{
         background-color: #ffffff;
@@ -177,7 +156,7 @@
     }
 
     .text-card-service{
-        padding: 24px;
+        padding: 16px 24px;
         font-weight: 600;
     }
 

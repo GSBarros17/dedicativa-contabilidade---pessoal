@@ -131,6 +131,7 @@ hr{
 
 .btn-light[type="checkbox"]::before{
     content: '💡';
+    cursor: pointer;
     font-size: 9px;
     position: absolute;
     width: 0.75rem;

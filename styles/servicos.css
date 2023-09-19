@@ -49,7 +49,7 @@
 }
 
 .text-card-service{
-    text-align: justify;
+    text-align: left;
     width: 90%;
     margin: 16px auto;
     font-size: 1rem;
@@ -72,7 +72,7 @@
 .text-card{
     width: 90%;
     background-color: #ffffff;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
     font-size: 1em;
     display: block;
@@ -83,7 +83,7 @@
 }
 
 .text-card li{
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
     padding: 8px;
     text-align: left;

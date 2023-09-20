@@ -211,8 +211,8 @@ hr{
 .whatsapp-icon{
     width: 30%;
     position: absolute;
-    top: 350px;
-    right: -80px;
+    top: 500%;
+    left: 90%;
 }
 
 @media screen and (min-width: 850px){
@@ -277,9 +277,8 @@ hr{
 
     .whatsapp-icon{
         width: 20%;
-        position: absolute;
-        top: 350px;
-        right: -200px;
+        top: 300%;
+        left: 95%;
     }
 }
    

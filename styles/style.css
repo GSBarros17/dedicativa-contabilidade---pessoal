@@ -208,7 +208,12 @@ hr{
     color: #b6be3a;
 }
 
-
+.whatsapp-icon{
+    width: 30%;
+    position: absolute;
+    top: 350px;
+    right: -80px;
+}
 
 @media screen and (min-width: 850px){
     .menu-header{
@@ -268,6 +273,13 @@ hr{
 
     .icons-nav{
         width: 1.2rem;
+    }
+
+    .whatsapp-icon{
+        width: 20%;
+        position: absolute;
+        top: 350px;
+        right: -200px;
     }
 }
    

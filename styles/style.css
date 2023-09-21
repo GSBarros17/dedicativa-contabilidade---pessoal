@@ -208,11 +208,14 @@ hr{
     color: #b6be3a;
 }
 
-.whatsapp-icon{
-    width: 30%;
+.link-whatsapp{
     position: absolute;
     top: 500%;
     left: 90%;
+}
+
+.whatsapp-icon{
+    width: 80%;
 }
 
 @media screen and (min-width: 850px){
@@ -275,10 +278,13 @@ hr{
         width: 1.2rem;
     }
 
-    .whatsapp-icon{
-        width: 20%;
+    .link-whatsapp{
         top: 300%;
         left: 95%;
+    }
+
+    .whatsapp-icon{
+        width: 70%;   
     }
 }
    

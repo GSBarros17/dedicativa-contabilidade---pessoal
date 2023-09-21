@@ -68,8 +68,9 @@ function checkForm(){
     const nameForm = document.querySelector(".name-form").value
     const emailForm = document.querySelector(".email-form").value
     const textForm = document.querySelector(".text-form").value
+    const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     
-    if(nameForm === "" || emailForm === "" || textForm === ""){
+    if(nameForm === "" || !regexEmail.test(emailForm) || textForm === ""){
         return alertErro();
     } else {
         return alertSucess();

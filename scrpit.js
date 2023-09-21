@@ -1,4 +1,4 @@
-/*============================== botões do site ================================================*/
+/*============================== botão do darkmode ================================================*/
 
 const buttonMenu = document.querySelector(".button-menu-ative")
 const menu = document.querySelector(".navigation-bar")
@@ -27,6 +27,8 @@ changeTheme.addEventListener("change", () => {
     }
 })
 
+
+
 /*========================= botão card-dev =================================================*/
 
 const buttonDevCard = document.querySelector(".button-dev-card")
@@ -43,11 +45,39 @@ buttonCloseDevCard.addEventListener("click", () => {
 let anoAtual = new Date().getFullYear()
 document.querySelector(".current-date").textContent = anoAtual
 
+/*================================= botão contato ===========================================*/
 
+const sendMessage = document.querySelector(".form-btn")
+function alertSucess(){
+    Swal.fire(
+        'Mensagem enviada!',
+        'Logo entraremos em contato!',
+        'success'
+      )
+}
 
+function alertErro(){  
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Preencha todos os campos corretamente!'
+    })
+}
 
-
-
+function checkForm(){
+    const nameForm = document.querySelector(".name-form").value
+    const emailForm = document.querySelector(".email-form").value
+    const textForm = document.querySelector(".text-form").value
+    
+    if(nameForm === "" || emailForm === "" || textForm === ""){
+        return alertErro();
+    } else {
+        return alertSucess();
+    }
+}
+sendMessage.addEventListener("click", ()=> {
+    checkForm();
+})
 
 
 

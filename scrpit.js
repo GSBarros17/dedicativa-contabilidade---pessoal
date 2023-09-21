@@ -64,20 +64,21 @@ function alertErro(){
     })
 }
 
-function checkForm(){
+function checkForm(event){
     const nameForm = document.querySelector(".name-form").value
     const emailForm = document.querySelector(".email-form").value
     const textForm = document.querySelector(".text-form").value
     const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     
     if(nameForm === "" || !regexEmail.test(emailForm) || textForm === ""){
+        event.preventDefault();
         return alertErro();
     } else {
         return alertSucess();
     }
 }
-sendMessage.addEventListener("click", ()=> {
-    checkForm();
+sendMessage.addEventListener("click", (event)=> {
+    checkForm(event);
 })
 
 

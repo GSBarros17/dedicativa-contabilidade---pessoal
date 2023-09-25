@@ -48,6 +48,7 @@ document.querySelector(".current-date").textContent = anoAtual
 /*================================= botão contato ===========================================*/
 
 const sendMessage = document.querySelector(".form-btn")
+
 function alertSucess(){
     Swal.fire(
         'Mensagem enviada!',
@@ -68,19 +69,25 @@ function checkForm(event){
     const nameForm = document.querySelector(".name-form").value
     const emailForm = document.querySelector(".email-form").value
     const textForm = document.querySelector(".text-form").value
-    const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
     
     if(nameForm === "" || !regexEmail.test(emailForm) || textForm === ""){
-        event.preventDefault();
-        return alertErro();
+        event.preventDefault()
+        return alertErro()
     } else {
-        return alertSucess();
+        return alertSucess()
     }
 }
-sendMessage.addEventListener("click", (event)=> {
-    checkForm(event);
-})
+sendMessage.addEventListener("click", (event) => {
+  checkForm(event);
 
-
-
-
+  setTimeout(() => {
+    const redirectForm = document.querySelector(".redirect-form");
+    if (redirectForm) {
+      const redirectURL = redirectForm.value;
+      if (redirectURL) {
+        window.location.href = redirectURL;
+      }
+    }
+  }, 5000);
+});

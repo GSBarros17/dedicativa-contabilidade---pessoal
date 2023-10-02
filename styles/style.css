@@ -230,8 +230,12 @@ hr{
     }
 
     .logo-header{
-        width: 70%;
+        position: absolute;
+        z-index: 2000;
+        top: 10px;
+        width: 20%;
         margin: 16px;
+        
     }
 
     .btn-light[type="checkbox"]{

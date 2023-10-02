@@ -80,14 +80,4 @@ function checkForm(event){
 }
 sendMessage.addEventListener("click", (event) => {
   checkForm(event);
-
-  setTimeout(() => {
-    const redirectForm = document.querySelector(".redirect-form");
-    if (redirectForm) {
-      const redirectURL = redirectForm.value;
-      if (redirectURL) {
-        window.location.href = redirectURL;
-      }
-    }
-  }, 5000);
 });

@@ -258,7 +258,7 @@ hr{
         justify-content: end;
         position: sticky;
         top: 0;
-        height: 20%;
+        height: 5vh;
         visibility: visible;
         overflow-y: visible;
     }
@@ -401,8 +401,7 @@ hr{
     display: flex;
     justify-content: center;
     width: 80%;
-    padding: 8px 0px;
-    margin: 24px auto;
+    margin: 0px auto 16px auto;
 }
 
 .contact-image{
@@ -420,10 +419,10 @@ hr{
 
 .contact-text{
     width: 40%;
-    text-align:left;
+    font-size: 1rem;
+    text-align: left;
     margin: auto;
     font-weight: 500;
-    font-size: 1rem;
 }
 
 .contact-area h3{
@@ -495,7 +494,6 @@ hr{
         margin-bottom: 50px;
     }
 
-
     .cards-services{
         width: 70%;
     }
@@ -505,7 +503,11 @@ hr{
     }
 
     .contact-text{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .contact-info{
+        margin: 0px auto 16px auto;
     }
 
     .location-maps{
@@ -948,7 +950,7 @@ dialog .card-info-dev-text{
 .sub-text-principal{
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 16px;
+    margin: 16px auto;
     color: #282828;
     transition: 1s;
     border-bottom: 2px solid #322f50;
@@ -959,7 +961,7 @@ dialog .card-info-dev-text{
     border-bottom: 2px solid #b6be3a;
 }
 
-.contact-text{
+.contact-text-form{
     font-size: 1rem;
     text-align: center;
     margin-top: 8px;

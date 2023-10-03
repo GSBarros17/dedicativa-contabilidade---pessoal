@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Web da empresa Dedicativa Contabilidade, desenvolvida para oferecer uma melhor experiência para nosso cliente.">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.min.css" rel="stylesheet">
     <title>Dedicativa-contabilidade-pessoal</title>
 </head>
 <body>
     <header>
         <section class="menu-header">
-            <button type="button" class="button-menu-ative" data-message="botão abre e fecha menu"><i class="fi fi-sr-menu-burger"></i></button>
+            <button type="button" class="button-menu-ative" aria-label="botão para abrir e fechar o menu"><i class="fi fi-sr-menu-burger"></i></button>
             <a href="index.html"><img class="logo-header" src="./imagens/dedicativa-home-logo.png" alt="logo marca dedicativa"></a>
-            <input class="btn-light" type='checkbox' name="button-light">
+            <input class="btn-light" type='checkbox' name="button-light" aria-label="botão de tema claro e escuro">
         </section>
         <nav class="navigation-bar">
             <a class="nav-menu" href="index.html"><i class="fi fi-rs-home icons-nav"></i>Home<i class="fi fi-rs-angle-small-right"></i></a>
@@ -53,20 +53,20 @@
         <section class="footer-information">
             <a href="index.html"><img class="logo-footer" src="./imagens/dedicativa-contabilidade-seu-escritorio-de-contabilidade-home-logo-principal (1).png" alt="logomarca dedicativa branca"></a>
             <div class="social-media-icons">
-                <a class="menu-social-media-icons" href="https://pt-br.facebook.com/"><i class="fi fi-brands-facebook"></i></a>
-                <a class="menu-social-media-icons" href="https://www.instagram.com/"><i class="fi fi-brands-instagram"></i></a>
-                <a class="menu-social-media-icons" href="https://br.linkedin.com/"><i class="fi fi-brands-linkedin"></i></a>
+                <a class="menu-social-media-icons" href="https://pt-br.facebook.com/" aria-label="link para o facebook da dedicativa"><i class="fi fi-brands-facebook"></i></a>
+                <a class="menu-social-media-icons" href="https://www.instagram.com/" aria-label="link para o instragram da dedicativa"><i class="fi fi-brands-instagram"></i></a>
+                <a class="menu-social-media-icons" href="https://br.linkedin.com/" aria-label="link para o linkedin da dedicativa"><i class="fi fi-brands-linkedin"></i></a>
             </div>
         </section>
         <section class="end-footer-information">
             <p>Copyright ©️ <span class="current-date"></span> - Dedicativa</p>
             <p>Desenvolvido por: Guilherme S. Barros
-                <button class="button-dev-card"><i class="fi fi-rs-money-check"></i></button>
+                <button class="button-dev-card" aria-label="botão que abre o card do desenvolvedor"><i class="fi fi-rs-money-check"></i></button>
             </p>
-            <p class="reference">Ícones feitos por Freepik de www.flaticon.com</p>    
+            <p class="reference">Ícones feitos por Freepik de www.flaticon.com</p>          
         </section>
         <dialog>
-            <button class="button-close-dev-card">X</button>
+            <button class="button-close-dev-card" aria-label="botão que fecha o card do desenvolvedor">X</button>
             <div class="card-img-name">
                 <img class="foto-card" src="./imagens/foto-desenvolvedor.png" alt="foto do desenvolvedor do site">
                 <h1>Guilherme Soares de Barros</h1>
